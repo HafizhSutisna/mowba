@@ -1,97 +1,92 @@
+'use client'
+
+import React from 'react';
+
 import Image from 'next/image'
-import styles from './page.module.css'
 
-export default function Home() {
+import { Layout, Menu } from 'antd';
+const { Header, Content, Footer } = Layout;
+
+const Dashboard = () => {
+  const menus = [
+    {
+      key: '1',
+      label: 'Pendahuluan'
+    },
+    {
+      key: '2',
+      label: 'Materi'
+    },
+    {
+      key: '3',
+      label: 'Penutup'
+    }
+  ]
+
   return (
-    <main className={styles.main}>
-      <div className={styles.description}>
-        <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>src/app/page.js</code>
-        </p>
-        <div>
-          <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{' '}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className={styles.vercelLogo}
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
+    <Layout style={{ minHeight: "100vh" }}>
+      <Header
+        style={{
+          position: 'sticky',
+          top: 0,
+          zIndex: 1,
+          width: '100%',
+          display: 'flex',
+          alignItems: 'center',
+          background: 'transparent'
+        }}
+      >
+        <Image
+          src="/logo-um.png"
+          width={100}
+          height={32}
+          alt="Logo Kampus UM"
+        />
+        <Menu
+          mode="horizontal"
+          defaultOpenKeys={['1']}
+          defaultSelectedKeys={['1']}
+          items={menus}
+          disabledOverflow
+          style={{
+            background: 'transparent',
+            borderBottom: 0
+          }}
+        />
+      </Header>
+      <Content
+        className="site-layout"
+        style={{
+          padding: '0 50px',
+        }}
+      >
+        {/* <Breadcrumb
+          style={{
+            margin: '16px 0',
+          }}
+        >
+          <Breadcrumb.Item>Home</Breadcrumb.Item>
+          <Breadcrumb.Item>List</Breadcrumb.Item>
+          <Breadcrumb.Item>App</Breadcrumb.Item>
+        </Breadcrumb> */}
+        <div
+          style={{
+            padding: 24,
+            minHeight: 380,
+          }}
+        >
+          Content
         </div>
-      </div>
+      </Content>
+      <Footer
+        style={{
+          textAlign: 'center',
+        }}
+      >
+        MOWBA ©2023 Created by Hafizh Sutisna
+      </Footer>
+    </Layout>
+  );
+};
 
-      <div className={styles.center}>
-        {/* <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        /> */}
-
-        MOWBA
-      </div>
-
-      <div className={styles.grid}>
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Docs <span>-&gt;</span>
-          </h2>
-          <p>Find in-depth information about Next.js features and API.</p>
-        </a>
-
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Learn <span>-&gt;</span>
-          </h2>
-          <p>Learn about Next.js in an interactive course with&nbsp;quizzes!</p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Templates <span>-&gt;</span>
-          </h2>
-          <p>Explore the Next.js 13 playground.</p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Deploy <span>-&gt;</span>
-          </h2>
-          <p>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
-    </main>
-  )
-}
+export default Dashboard;
