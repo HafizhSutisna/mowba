@@ -1,6 +1,7 @@
 'use client'
 
 import Image from 'next/image'
+import Link from 'next/link'
 
 import { Layout, Menu } from 'antd';
 const { Header } = Layout;
@@ -9,15 +10,15 @@ const Headers = () => {
   const items = [
     {
       key: '1',
-      label: 'Pendahuluan'
+      label: <Link href="/">Pendahuluan</Link>
     },
     {
       key: '2',
-      label: 'Materi'
+      label: <Link href="/materi">Materi</Link>
     },
     {
       key: '3',
-      label: 'Penutup'
+      label: <Link href="/penutup">Penutup</Link>
     }
   ]
 
