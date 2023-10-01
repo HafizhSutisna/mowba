@@ -1,21 +1,24 @@
 'use client'
 
-import React from 'react';
-
 import { Layout, Collapse } from 'antd';
 const { Content } = Layout;
+
+import PetunjukPenggunaanMowba from '../components/PetunjukPenggunaanMowba'
+import DaftarIsi from '../components/DaftarIsi'
+import IdentitasModul from '../components/IdentitasModul'
+import KompetensiDasar from '../components/KompetensiDasar'
 
 const Dashboard = () => {
   const collapseItems = [
     {
       key: '1',
       label: '1. PETUNJUK PENGGUNAAN MOWBA',
-      children: <p>Close it!</p>
+      children: <PetunjukPenggunaanMowba />
     },
     {
       key: '2',
       label: '2. DAFTAR ISI',
-      children: <p>Close it!</p>
+      children: <DaftarIsi />
     },
     {
       key: '3',
@@ -30,12 +33,12 @@ const Dashboard = () => {
     {
       key: '5',
       label: '5. IDENTITAS MODUL',
-      children: <p>Close it!</p>
+      children: <IdentitasModul />
     },
     {
       key: '6',
       label: '6. KOMPETENSI DASAR',
-      children: <p>Close it!</p>
+      children: <KompetensiDasar />
     }
   ]
 
@@ -55,7 +58,9 @@ const Dashboard = () => {
           }}
         >
           <h1 style={{ color: 'white', fontSize: 58 }}>
-            Sejarah Epidemi Pes di Malang (1911-1916)
+            MOWBA
+            <br />
+            Sejarah Lokal DKI Jakarta (Masjid Luar Batang)
           </h1>
         </div>
 
@@ -89,13 +94,19 @@ const Dashboard = () => {
               fontSize: 16
             }}
           >
-            Sejauh mana kamu mengupdate informasi perkembangan Covid-19 di Malang?
-            Pernahkah kamu mengetahui bahwa Malang pernah dilanda wabah penyakit besar-besaran seperti pandemi Covid-19 saat ini? Penasaran?
-            Simak materi dalam E-Mopes ini dengan cermat ya anak-anak cerdas!
+            <p>
+              Assalamu’alaikum Wr. Wb. Halo anak-anak cerdas! Selamat datang di Mowba.
+            </p>
+            <br />
+            <p>
+              Sejauh mana kamu mengetahui sejarah lokal di DKI Jakarta?
+              Pernahkan kamu menyadari bahwa di kota Metropolitan seperti Jakarta ini memiliki sejarah lokal,
+              khususnya yang bercorak islam? Penasaran? Mari simak materi di dalam Mowba ini dengan cermat ya anak-anak cerdas!
+            </p>
           </div>
         </div>
 
-        <Collapse size="large" items={collapseItems}/>
+        <Collapse size="large" items={collapseItems} />
       </Content>
     </Layout>
   );
