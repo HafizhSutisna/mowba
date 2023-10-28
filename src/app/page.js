@@ -7,6 +7,7 @@ import PetunjukPenggunaanMowba from '../components/PetunjukPenggunaanMowba'
 import DaftarIsi from '../components/DaftarIsi'
 import IdentitasModul from '../components/IdentitasModul'
 import KompetensiDasar from '../components/KompetensiDasar'
+import DaftarGambar from '../components/DaftarGambar'
 
 const Dashboard = () => {
   const collapseItems = [
@@ -23,7 +24,7 @@ const Dashboard = () => {
     {
       key: '3',
       label: '3. DAFTAR GAMBAR',
-      children: <p>Close it!</p>
+      children: <DaftarGambar />
     },
     {
       key: '4',
