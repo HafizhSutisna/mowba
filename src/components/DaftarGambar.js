@@ -1,36 +1,36 @@
 const DaftarGambar = () => {
   return (
     <>
-      <div>Gambar 1.1 Ilustrasi keberadaan imigran arab di pesisir utara kota Batavia (Wikipedia, diakses 2023)</div>
-      <div>Gambar 1.2 Batu Prasasti di depan makam Habib Husein (Dokumentasi pribadi, 2023)</div>
-      <div>Gambar 1. Tampak Masjid Luar Batang sekitar tahun 1998 (Depdikbud, 1999 : 123)</div>
-      <div>Gambar 2. Tampak depan gerbang Luar Batang. (Heuken, 2003 :45)</div>
-      <div>Gambar 3. Tampak depan cungkup makam Luar Batang (terlihat kubahnya) (Heuken, 2003 : 46)</div>
-      <div>Gambar 4. Area ruang ziarah makam Habib Husein Luar Batang (Heuken, 2003 : 46)</div>
-      <div>Gambar 1. Tampak Masjid Luar Batang sekarang (Diolah dari https://direktoripariwisata.id/, 2023)</div>
-      <div>Gambar 2. Tampak Kompleks Masjid Luar Batang jika dilihat dari Google Satelit (Diolah dari Wikimapia, 2023)</div>
-      <div>Gambar 3. Denah Kompleks Masjid Luar Batang (Diolah menggunakan Adobe Ilustrator, 2023)</div>
-      <div>Gambar 2.1 Kolom-kolom diarea Sholat Jama’ah laki-laki yang jika ditotal berjumlah 12 kolom dan tampak atap yang berbentuk meruncing (Dokumentasi pribadi, 2023)</div>
-      <div>Gambar 2.2 Area Imam memimpin sholat berjama’ah dan mimbar Khotib (Dokumentasi Pribadi, 2023)</div>
-      <div>Gambar 2.3 Pintu masuk selatan menuju ruangan sholat jama’ah laki-laki (Dokumentasi pribadi, 2023)</div>
-      <div>Gambar 2.4 Pintu timur menuju ruangan sholat bagi jama’ah laki-laki (Dokumentasi Pribadi, 2023)</div>
-      <div>Gambar 2.5 Prasasti peletakkan batu pertama pemugaran masjid luar batang pada tanggal 6 September 1991 oleh Gubernur Wiyogo Atmodarminto (Dokumentasi Pribadi, 2023)</div>
-      <div>Gambar 2.6  Prasasti pemugaran masjid luar batang  tahap I pada tanggal 5 September 1997 oleh Gubernur Surjadi Soedirdja (Dokumentasi Pribadi, 2023)</div>
-      <div>Gambar 2.7 Area ruangan sholat bagi jama’ah perempuan (Dokumentasi Pribadi, 2023)</div>
-      <div>Gambar 2.8 Tampak kolom-kolom di area ruangan sholat bagi jama’ah perempuan (Dokumentasi Pribadi, 2023)</div>
-      <div>Gambar 2.9 Area ruangan berziarah pada Makam Habib Husein (Dokumentasi Pribadi, 2023)</div>
-      <div>Gambar 2.10 Tampak dari luar ruangan area Ziarah yang bersebelahan langsung dengan ruangan sholat bagi jama’ah perempuan (Dokumentasi Pribadi, 2023)</div>
-      <div>Gambar 2.11 Area berwudhu jama’ah laki-laki (Dokumentasi Pribadi, 2023)</div>
-      <div>Gambar 2.12 Menara lama (sebelah kiri) dan Menara baru (sebelah kanan) (Dokumentasi Pribadi, 2023)</div>
-      <div>Gambar 2.13 Area persekratariatan Masjid dan Makam (Dokumentasi Pribadi, 2023)</div>
-      <div>Gambar 2.14 Madrasah Dinniyah Manbaul Ulum dan TPA An-nur Masjid Luar Batang (Dokumentasi Pribadi, 2023)</div>
-      <div>Gambar 2.15 Warung dan Toilet lama (Ashadi dkk, 2017)</div>
-      <div>Gambar 2.16 Gapura Pintu masuk kompleks Masjid Luar Batang (tampak luar) dan Parkiran Motor Peziarah (Dokumentasi Pribadi, 2023)</div>
-      <div>Gambar 2.17  Gapura pintu masuk kompleks Masjid Luar Batang (tampak dari dalam) (Dokumentasi Pribadi, 2023)</div>
-      <div>Gambar 2.18 Area parkir khusus kendaraan Roda 2 dan Roda 4 (Ashadi dkk, 2017)</div>
-      <div>Gambar 2.19 Beberapa contoh pemakaman tua yang berada di Kompleks Masjid Luar Batang (Ashadi, 2017)</div>
-      <div>Gambar 3.1 Tampak Masjid Luar Batang sekarang (Dokumentasi Pribadi, 2023)</div>
-      <div>Gambar 3.2 Penetapan Nomor Regnes pada halaman resmi Cagar Budaya (Diolah dari https:// cagarbudaya.kemendikbud.go.id /, 2023)</div>
+      <div>Gambar 1. Ilustrasi keberadaan imigran arab di pesisir utara kota Batavia</div>
+      <div>Gambar 2. Batu Prasasti di depan makam Habib Husein</div>
+      <div>Gambar 3. Tampak Masjid Luar Batang sekitar tahun 1998</div>
+      <div>Gambar 4. Tampak depan gerbang Luar Batang</div>
+      <div>Gambar 5. Tampak depan cungkup makam Luar Batang (terlihat kubahnya)</div>
+      <div>Gambar 6. Area ruang ziarah makam Habib Husein Luar Batang</div>
+      <div>Gambar 7. Tampak Masjid Luar Batang sekarang</div>
+      <div>Gambar 8. Tampak Kompleks Masjid Luar Batang jika dilihat dari Google Satelit</div>
+      <div>Gambar 9.  Denah Kompleks Masjid Luar Batang</div>
+      <div>Gambar 10. Kolom-kolom diarea Sholat Jama’ah laki-laki yang jika ditotal berjumlah 12 kolom dan tampak atap yang berbentuk meruncing</div>
+      <div>Gambar 11. Area Imam memimpin sholat berjama’ah dan mimbar Khotib</div>
+      <div>Gambar 12. Pintu masuk selatan menuju ruangan sholat jama’ah laki-laki</div>
+      <div>Gambar 13. Pintu timur menuju ruangan sholat bagi jama’ah laki-laki</div>
+      <div>Gambar 14. Prasasti peletakkan batu pertama pemugaran masjid luar batang pada tanggal 6 September 1991 oleh Gubernur Wiyogo Atmodarminto</div>
+      <div>Gambar 15. Prasasti pemugaran masjid luar batang  tahap I pada tanggal 5 September 1997 oleh Gubernur Surjadi Soedirdja</div>
+      <div>Gambar 16. Area ruangan sholat bagi jama’ah perempuan</div>
+      <div>Gambar 17. Tampak kolom-kolom di area ruangan sholat bagi jama’ah perempuan</div>
+      <div>Gambar 18. Area ruangan berziarah pada Makam Habib Husein</div>
+      <div>Gambar 19. Tampak dari luar ruangan area Ziarah yang bersebelahan langsung dengan ruangan sholat bagi jama’ah perempuan</div>
+      <div>Gambar 20. Area berwudhu jama’ah laki-laki</div>
+      <div>Gambar 21. Menara lama (sebelah kiri) dan Menara baru (sebelah kanan)</div>
+      <div>Gambar 22. Area persekratariatan Masjid dan Makam</div>
+      <div>Gambar 23. Madrasah Dinniyah Manbaul Ulum dan TPA An-nur Masjid Luar Batang</div>
+      <div>Gambar 24. Warung dan Toilet lama</div>
+      <div>Gambar 25. Gapura Pintu masuk kompleks Masjid Luar Batang (tampak luar) dan Parkiran Motor Peziarah</div>
+      <div>Gambar 26. Gapura pintu masuk kompleks Masjid Luar Batang (tampak dari dalam)</div>
+      <div>Gambar 27. Area parkir khusus kendaraan Roda 2 dan Roda 4</div>
+      <div>Gambar 28. Beberapa contoh pemakaman tua yang berada di Kompleks Masjid Luar Batang</div>
+      <div>Gambar 29. Tampak Masjid Luar Batang sekarang</div>
+      <div>Gambar 30. Penetapan Nomor Regnes pada halaman resmi Cagar Buday</div>
     </>
   )
 }
