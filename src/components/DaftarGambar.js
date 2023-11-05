@@ -1,6 +1,6 @@
 const DaftarGambar = () => {
   return (
-    <>
+    <div style={{ background: 'rgba(241,225,221,1)' }}>
       <div>Gambar 1. Ilustrasi keberadaan imigran arab di pesisir utara kota Batavia</div>
       <div>Gambar 2. Batu Prasasti di depan makam Habib Husein</div>
       <div>Gambar 3. Tampak Masjid Luar Batang sekitar tahun 1998</div>
@@ -31,7 +31,7 @@ const DaftarGambar = () => {
       <div>Gambar 28. Beberapa contoh pemakaman tua yang berada di Kompleks Masjid Luar Batang</div>
       <div>Gambar 29. Tampak Masjid Luar Batang sekarang</div>
       <div>Gambar 30. Penetapan Nomor Regnes pada halaman resmi Cagar Buday</div>
-    </>
+    </div>
   )
 }
 

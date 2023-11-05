@@ -3,7 +3,7 @@ const { Paragraph, Link } = Typography
 
 const PetunjukPenggunaanMowba = () => {
   return (
-    <Paragraph style={{ textAlign: 'start' }}>
+    <Paragraph style={{ textAlign: 'start', background: 'rgba(241,225,221,1)' }}>
       <ul>
         <li>
           Berdoalah sesuai agama dan keyakinan masing-masing.

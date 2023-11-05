@@ -2,7 +2,7 @@ import { Row, Col } from 'antd'
 
 const IdentitasModul = () => {
   return (
-    <div style={{ textAlign: 'start' }}>
+    <div style={{ textAlign: 'start', background: 'rgba(241,225,221,1)' }}>
       <Row>
         <Col span={3}>Judul Modul</Col>
         <Col span={8}>: Sejarah Lokal di Jakarta (Masjid Luar Batang)</Col>

@@ -3,7 +3,7 @@ import { Typography, List, Card, Space } from 'antd'
 const DaftarIsi = () => {
   return (
     <Space direction='vertical' size={16}>
-      <Card>
+      <Card style={{ background: 'rgba(241,225,221,1)' }}>
         <div>PENDAHULUAN</div>
         <div>PETUNJUK PENGGUNAAN MOWBA</div>
         <div>DAFTAR ISI</div>
@@ -22,6 +22,7 @@ const DaftarIsi = () => {
           </div>
         }
         bodyStyle={{ textAlign: 'start' }}
+        style={{ background: 'rgba(241,225,221,1)' }}
       >
         <div>A. Tujuan Pembelajaran</div>
         <div>B. Uraian Materi</div>
@@ -41,6 +42,7 @@ const DaftarIsi = () => {
           </div>
         }
         bodyStyle={{ textAlign: 'start' }}
+        style={{ background: 'rgba(241,225,221,1)' }}
       >
         <div>A. Tujuan Pembelajaran</div>
         <div>B. Uraian Materi</div>
@@ -51,7 +53,7 @@ const DaftarIsi = () => {
         <div>E. Penilaian Diri</div>
       </Card>
 
-      <Card>
+      <Card style={{ background: 'rgba(241,225,221,1)' }}>
         <div>PENUTUP</div>
         <div>GLOSARI</div>
         <div>DAFTAR RUJUKAN</div>

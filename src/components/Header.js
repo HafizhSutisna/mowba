@@ -31,7 +31,7 @@ const Headers = () => {
         width: '100%',
         display: 'flex',
         alignItems: 'center',
-        background: 'white'
+        background: 'rgb(241, 225, 221)'
       }}
     >
       <Image
@@ -47,7 +47,7 @@ const Headers = () => {
         defaultSelectedKeys={['1']}
         items={items}
         disabledOverflow
-        style={{ borderBottom: 0 }}
+        style={{ borderBottom: 0, background: 'rgb(241, 225, 221)' }}
       />
     </Header>
   )

@@ -1,5 +1,7 @@
 'use client'
 
+import Image from 'next/image'
+
 import { Layout, Collapse } from 'antd';
 const { Content } = Layout;
 
@@ -13,32 +15,32 @@ const Dashboard = () => {
   const collapseItems = [
     {
       key: '1',
-      label: '1. PETUNJUK PENGGUNAAN MOWBA',
+      label: <span style={{ color: 'rgb(241, 194, 50)' }}>1. PETUNJUK PENGGUNAAN MOWBA</span>,
       children: <PetunjukPenggunaanMowba />
     },
     {
       key: '2',
-      label: '2. DAFTAR ISI',
+      label: <span style={{ color: 'rgb(241, 194, 50)' }}>2. DAFTAR ISI</span>,
       children: <DaftarIsi />
     },
     {
       key: '3',
-      label: '3. DAFTAR GAMBAR',
+      label: <span style={{ color: 'rgb(241, 194, 50)' }}>3. DAFTAR GAMBAR</span>,
       children: <DaftarGambar />
     },
     {
       key: '4',
-      label: '4. PETA KONSEP',
-      children: <p>Close it!</p>
+      label: <span style={{ color: 'rgb(241, 194, 50)' }}>4. PETA KONSEP</span>,
+      children: <Image src="/peta-konsep.jpg" alt='gambar-1' width={827} height={582} />
     },
     {
       key: '5',
-      label: '5. IDENTITAS MODUL',
+      label: <span style={{ color: 'rgb(241, 194, 50)' }}>5. IDENTITAS MODUL</span>,
       children: <IdentitasModul />
     },
     {
       key: '6',
-      label: '6. KOMPETENSI DASAR',
+      label: <span style={{ color: 'rgb(241, 194, 50)' }}>6. KOMPETENSI DASAR</span>,
       children: <KompetensiDasar />
     }
   ]
@@ -71,10 +73,10 @@ const Dashboard = () => {
             justifyContent: 'center',
             alignItems: 'center',
             minHeight: 100,
-            background: 'brown',
+            background: 'rgb(115, 67, 50)',
           }}
         >
-          <strong style={{ color: 'white', fontSize: 18 }}>
+          <strong style={{ color: 'rgb(241, 194, 50)', fontSize: 18 }}>
             A. PENDAHULUAN
           </strong>
         </div>
@@ -84,13 +86,13 @@ const Dashboard = () => {
             display: 'flex',
             justifyContent: 'center',
             alignItems: 'center',
-            background: 'red'
+            background: 'rgb(115, 67, 50)'
           }}
         >
           <div
             style={{
               width: 680,
-              color: 'white',
+              color: 'rgb(241, 194, 50)',
               margin: 16,
               fontSize: 16
             }}
@@ -107,7 +109,7 @@ const Dashboard = () => {
           </div>
         </div>
 
-        <Collapse size="large" items={collapseItems} />
+        <Collapse size="large" items={collapseItems} style={{ background: 'rgb(115, 67, 50)' }} />
       </Content>
     </Layout>
   );
