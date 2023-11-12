@@ -30,8 +30,7 @@ const DaftarIsi = () => {
         <div style={{ marginLeft: 18 }}>2. Deskripsi Situs</div>
         <div style={{ marginLeft: 18 }}>3. Penetapan Situs Sebagai Bangunan Cagar Budaya di DKI Jakarta</div>
         <div>C. Uji Kompetensi</div>
-        <div>D. Kunci Jawaban</div>
-        <div>E. Penilaian Diri</div>
+        <div>D. Penilaian Diri</div>
       </Card>
 
       <Card style={{ background: 'rgba(241,225,221,1)', fontWeight: 'bold' }}>
