@@ -15,7 +15,7 @@ const IdentitasModul = () => {
 
       <Row>
         <Col span={3}>Sekolah</Col>
-        <Col span={8}>: SMAN 7 Jakarta</Col>
+        <Col span={8}>: MAN 7 Jakarta</Col>
       </Row>
 
       <Row>

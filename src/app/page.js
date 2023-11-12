@@ -15,32 +15,32 @@ const Dashboard = () => {
   const collapseItems = [
     {
       key: '1',
-      label: <span style={{ color: 'rgb(241, 194, 50)' }}>1. PETUNJUK PENGGUNAAN MOWBA</span>,
+      label: <span style={{ color: 'rgb(241, 194, 50)', fontWeight: 'bold' }}>1. PETUNJUK PENGGUNAAN MOWBA</span>,
       children: <PetunjukPenggunaanMowba />
     },
     {
       key: '2',
-      label: <span style={{ color: 'rgb(241, 194, 50)' }}>2. DAFTAR ISI</span>,
+      label: <span style={{ color: 'rgb(241, 194, 50)', fontWeight: 'bold' }}>2. DAFTAR ISI</span>,
       children: <DaftarIsi />
     },
     {
       key: '3',
-      label: <span style={{ color: 'rgb(241, 194, 50)' }}>3. DAFTAR GAMBAR</span>,
+      label: <span style={{ color: 'rgb(241, 194, 50)', fontWeight: 'bold' }}>3. DAFTAR GAMBAR</span>,
       children: <DaftarGambar />
     },
     {
       key: '4',
-      label: <span style={{ color: 'rgb(241, 194, 50)' }}>4. PETA KONSEP</span>,
+      label: <span style={{ color: 'rgb(241, 194, 50)', fontWeight: 'bold' }}>4. PETA KONSEP</span>,
       children: <Image src="/peta-konsep.jpg" alt='gambar-1' width={827} height={582} />
     },
     {
       key: '5',
-      label: <span style={{ color: 'rgb(241, 194, 50)' }}>5. IDENTITAS MODUL</span>,
+      label: <span style={{ color: 'rgb(241, 194, 50)', fontWeight: 'bold' }}>5. IDENTITAS MODUL</span>,
       children: <IdentitasModul />
     },
     {
       key: '6',
-      label: <span style={{ color: 'rgb(241, 194, 50)' }}>6. KOMPETENSI DASAR</span>,
+      label: <span style={{ color: 'rgb(241, 194, 50)', fontWeight: 'bold' }}>6. KOMPETENSI DASAR</span>,
       children: <KompetensiDasar />
     }
   ]
@@ -61,7 +61,7 @@ const Dashboard = () => {
           }}
         >
           <h1 style={{ color: 'white', fontSize: 58 }}>
-            MOWBA
+            E-Mowba
             <br />
             Sejarah Lokal DKI Jakarta (Masjid Luar Batang)
           </h1>
@@ -92,7 +92,7 @@ const Dashboard = () => {
           <div
             style={{
               width: 680,
-              color: 'rgb(241, 194, 50)',
+              color: 'white',
               margin: 16,
               fontSize: 16
             }}

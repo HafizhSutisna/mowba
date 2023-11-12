@@ -9,7 +9,7 @@ import StyledComponentsRegistry from '../libs/AntdRegistry'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'MOWBA',
+  title: 'E-Mowba',
   description: 'E-Module Web Based',
 }
 

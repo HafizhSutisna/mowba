@@ -35,9 +35,9 @@ const Headers = () => {
       }}
     >
       <Image
-        src="/logo-um.png"
-        width={100}
-        height={32}
+        src="/logo-um-3.png"
+        width={40}
+        height={40}
         alt="Logo Kampus UM"
       />
 
