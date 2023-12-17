@@ -356,7 +356,7 @@ const Materi = () => {
             </div>
           </div>
 
-          <h3 style={{ margin: '16px 0 16px 0' }}>D. Penetapan Situs Sebagai Cagar Budaya Bangunan</h3>
+          <h3 style={{ margin: '16px 0 16px 0' }}>3. Penetapan Situs Sebagai Cagar Budaya Bangunan</h3>
           <p style={{ textIndent: 32, color: 'white' }}>Cagar Budaya adalah suatu bentuk kekayaan budaya bangsa yang berwujud kehidupan manusia dalam pemahaman sejarah, Ilmu pengetahuan dan kebudayaan yang dikelola dengan baik melalui usaha perlindungan ataupun pemanfaatan untuk memaajukan kebudayaan nasional dan kemakmuran rakyat. Dalam pasal 1 UU No. 11 tahun 2010 cagar budaya didefinisikan sebagai warisan budaya yang bersifat kebendaan yang berupa benda, bangunan, struktur, situs, dan kawasan cagar budaya baik di darat ataupun di air yang perlu dilestarikankeberadaannya karena bernilai penting bagi sejarah, ilmu pengetahuan, pendidikan, agama, serta kebudayaan setelah adanya proses penetapan.</p>
           <p style={{ textIndent: 32, color: 'white' }}>Masyarakat berperan sangat penting terhadap usaha pelestarian cagar budaya setempat/lokal karena merekalah yang bersinggungan langsung atau sebagai pewaris kebudayaan yang ditinggalkan oleh cagar budaya yang berada di daerahnya masing-masing. Dengan demikian, kepeduliian serta kesadaran masyarakat terhadap peran tersebut akan berpengaruh besar bagi usaha pelestarian dan keberadaan dari masing-masing cagar budaya. Pelestarian tersebut bukan tanpa alasan, melainkan agar cagar budaya bisa terus dinikmati keberadaannya oleh generasi yang akan datang. Apabila mereka merasa acuh, tidak menutup kemungkinan cagar budaya yang masih ada akan rusak dan binasa seiring berjalannya waktu (Alvat,2019). Tujuan melindungi cagar budaya ini juga tecantum dalam Pasal 3 UU No. 11 tahun 2010, yaitu :</p>
           <ol style={{ listStyle: 'disc', marginLeft: 32, color: 'white' }}>
@@ -393,13 +393,13 @@ const Materi = () => {
 
           <p style={{ textIndent: 32, color: 'white' }}>Oleh karena itu, Pemprov DKI Jakarta terus memberikan perawatan dan renovasi sehingga sebuah bangunan bersejarah, terutama yang sudah ditetapakan sebagai bangunan cagar budaya agar menjadi lebih indah di kunjungi seperti Masjid Luar Batang walaupun sudah berdiri sejak tahun 1739 hingga saat ini. Tidak lupa juga, peran dari masyarakat Kampung Luar Batang yang secara turun temurun ikut serta menjaga serta merawat nilai keramat dari salah satu peninggalan Habib Husein bin Abubakar Alaydrus tersebut. Karena bukan hanya tugas dari pemerintah saja, tetapi seluruh elemen masyarakat setempat sudah seharusnya memiliki kepeduliian serta kesadaran terhadap pentingnya melestarikan cagar budaya yang mereka miliki di daerahnya (Alvat, 2019).</p>
         
-          <h3 style={{ margin: '16px 0 16px 0' }}>D. Uji Kompetensi</h3>
+          <h3 style={{ margin: '16px 0 16px 0' }}>C. Uji Kompetensi</h3>
 
           <div style={{ textAlign: 'center', height: '100vh', margin: '32px 0 32px 0' }}>
             <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSd5jqNjmPWhShqoD2CrApfgHsWwkfibXgJ40cOcQvOtWGzKsw/viewform?embedded=true" width="640" height="100%" frameborder="0" marginheight="0" marginwidth="0">Memuat…</iframe>
           </div>
 
-          <h3 style={{ margin: '16px 0 16px 0' }}>E. Penilaian Diri</h3>
+          <h3 style={{ margin: '16px 0 16px 0' }}>D. Penilaian Diri</h3>
 
           <div style={{ textAlign: 'center', height: '100vh' }}>
             <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfz48jMtlwNxED3wJGKBdHOQ96oO5cMZ3q-H0bnVFInDMqjPQ/viewform?embedded=true" width="640" height="100%" frameborder="0" marginheight="0" marginwidth="0">Memuat…</iframe>
