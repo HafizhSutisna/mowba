@@ -26,7 +26,7 @@ const DaftarIsi = () => {
       >
         <div>A. Tujuan Pembelajaran</div>
         <div>B. Uraian Materi</div>
-        <div style={{ marginLeft: 18 }}>1. Sejarah Situs Masjid Luar Batang</div>
+        <div style={{ marginLeft: 18 }}>1. Awal Kedatangan Bangsa Arab dan Sejarah Berdirinya Situs</div>
         <div style={{ marginLeft: 18 }}>2. Deskripsi Situs</div>
         <div style={{ marginLeft: 18 }}>3. Penetapan Situs Sebagai Bangunan Cagar Budaya di DKI Jakarta</div>
         <div>C. Uji Kompetensi</div>

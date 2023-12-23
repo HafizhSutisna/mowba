@@ -106,9 +106,11 @@ const Penutup = () => {
             <li style={{ paddingLeft: 40, textIndent: '-40px' }}>Ashadi, Dkk. 2017. “Fungsi Masjid Bersejarah Luar Batang, Jakarta Utara, dan Pengaruhnya terhadap Pola Permukiman di Sekitarnya”  dalam jurnal arsitektur Volume 16 </li>
             <li style={{ paddingLeft: 40, textIndent: '-40px' }}>Alvat, Pradikta Andi. 17 Januari 2019. Peran Penting Masyarakat dan Arti Penting Pelestarian Cagar Budaya. https://www.qureta.com/post/peran-penting. Diakses: 25 Oktober 2023</li>
             <li style={{ paddingLeft: 40, textIndent: '-40px' }}>Debdikbud. 1999. Mesjid Kuno Indonesia. Jakarta : Debdikbud Proyek Pembinaan Peninggalan Sejarah dan Kepurbakalaan Pusat.</li>
+            <li style={{ paddingLeft: 40, textIndent: '-40px' }}>Fitriandini, S. 2021. Hubungan Sejarah dan Pengaruh Budaya Terhadap Proses Akulturasi Arsitektur Masjid-Masjid Tua Abad XVI-XX di Jakarta. Jurnal Ilmiah Desain & Konstruksi, 19(2), 157-168.</li>
             <li style={{ paddingLeft: 40, textIndent: '-40px' }}>Heuken, Adolf. 2003. ”Mesjid-mesjid Tua di Jakarta”. Penerbit Cipta Loka Caraka :Jakarta.</li>
             <li style={{ paddingLeft: 40, textIndent: '-40px' }}>Heuken, Adolf. 2007. ”Historical Sites of Jakarta”. Penerbit Cipta Loka Caraka :Jakarta.</li>
             <li style={{ paddingLeft: 40, textIndent: '-40px' }}>KementerianPendidikandanBudaya. http://cagarbudaya.kemdikbud.go.id/cagarbudaya/detail/PO2014100800274/masjid-luar-batang</li>
+            <li style={{ paddingLeft: 40, textIndent: '-40px' }}>Lubis, Nina H., dkk. 2003. Sejarah Tatar Sunda, Jilid 1. Bandung: Lembaga Penelitian Universitas Padjajaran</li>
             <li style={{ paddingLeft: 40, textIndent: '-40px' }}>Ruchiat, Rachmat. 2012. Asal-Usul Nama Tempat di Jakarta. Jakarta : Mansup Jakarta.</li>
             <li style={{ paddingLeft: 40, textIndent: '-40px' }}>Sudarso, Yus. 1998. Sepintas Riwayat Shahibul Qutub Al-Habib Husein bin Abubakar Alaydrus.</li>
             <li style={{ paddingLeft: 40, textIndent: '-40px' }}>Undang-Undang Republik Indonesia Nomor 11 Tahun 2010 tentang Cagar Budaya (2010). [Diakses pada tanggal 25 Oktober 2023]. http://jdih.ristekdikti.go.id</li>
